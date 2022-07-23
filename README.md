@@ -22,6 +22,7 @@ Para inicializar o projeto primeiro, clone o repositório atraves do comando no 
 Para inicializar o frontend, entre na pasta `doar-projetos` e rode o comando:
    - `npm install` se estiver usando o NPM.
    - `yarn` para Yarn.
+   
 Após acabar de instalar as dependências, rode o comando:
    - `npm dev` se estiver usando o NPM.
    - `yarn dev` para Yarn.
@@ -29,6 +30,7 @@ Após acabar de instalar as dependências, rode o comando:
 Para inicializar o backend, entre na pasta `backend` e rode o comando:
    - `npm install` se estiver usando o NPM.
    - `yarn` para Yarn.
+   
 Após acabar de instalar as dependências, rode o comando:
    - `npm dev` se estiver usando o NPM.
    - `yarn dev` para Yarn.
