@@ -20,18 +20,22 @@ Para inicializar o projeto primeiro, clone o repositório atraves do comando no 
 `git clone https://github.com/IgorWestermann/doar-computador-appmasters`
 
 Para inicializar o frontend, entre na pasta `doar-projetos` e rode o comando:
-   - `npm install` para se estiver usando o NPM.
+   - `npm install` se estiver usando o NPM.
    - `yarn` para Yarn.
 Após acabar de instalar as dependências, rode o comando:
-   - `npm dev` para se estiver usando o NPM.
+   - `npm dev` se estiver usando o NPM.
    - `yarn dev` para Yarn.
 
 Para inicializar o backend, entre na pasta `backend` e rode o comando:
-   - `npm install` para se estiver usando o NPM.
+   - `npm install` se estiver usando o NPM.
    - `yarn` para Yarn.
 Após acabar de instalar as dependências, rode o comando:
-   - `npm dev` para se estiver usando o NPM.
+   - `npm dev` se estiver usando o NPM.
    - `yarn dev` para Yarn.
+
+Para realizar os testes, dentro da pasta `backend` rode:
+   - `npm test` se estiver usando o NPM.
+   - `yarn test` para Yarn.
 
 ## 4. O Design
 
