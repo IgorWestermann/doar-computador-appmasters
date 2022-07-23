@@ -7,7 +7,7 @@
 - [1. Sumário](#1-sumário)
 - [2. O Projeto](#2-sobre-o-projeto)
 - [3. Inicialização](#3-inicialização)
-- [4. Design](#5-o-design)
+- [4. Design](#4-o-design)
 - [5. Dependências](#5-dependências)
 
 ## 2. Sobre o projeto
