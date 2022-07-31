@@ -63,7 +63,6 @@ const newValidation = zod.object({
   complement: zod.string().min(1, "Campo obrigatorio"),
   neighborhood: zod.string().min(1, "Campo obrigatorio"),
   deviceCount: zod.number().min(1, "Campo obrigatorio"),
-  // devices: zod.string().min(1, "Campo obrigatorio"),
   devices: zod.array(TypeAndCondition).optional(),
 });
 
@@ -248,14 +247,15 @@ export function Form() {
                 <Button type="submit" colorScheme="blue">
                   Enviar
                 </Button>
-                {/* <button type="submit">Enviar</button> */}
               </Box>
             </Center>
           </SimpleGrid>
           <Divider />
           <SimpleGrid columns={2} spacing={8}>
             <Box height="60px">
-              {formData ? createElements(formData) : <span></span>}
+              {formData ? <p>Quais dispositivos serão doados?</p> : <></>}
+
+              {formData ? createElements(formData) : <></>}
             </Box>
           </SimpleGrid>
         </form>
