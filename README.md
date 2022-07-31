@@ -53,5 +53,13 @@ Utilizei a biblioteca axios exigida no escopo do projeto.
 Foi utilizado SuperTest em conjunto do Jest como ferramente de teste
 ### 5.3. [Ts-node](https://www.npmjs.com/package/ts-node#overview)
 Foi utilizado o Ts-node para auxiliar a rodar o serviço
+### 5.4. [Chakra UI](https://chakra-ui.com/)
+Foi utilizado o Chakra UI para auxiliar na estilização de componentes
+### 5.5. [Styled Components](https://styled-components.com/)
+Foi utilizado o Styled Components para auxiliar na estilização de componentes
+### 5.6. [React Hook Form](https://react-hook-form.com/)
+O React Hook Form foi utilizado para validar os formulários 
+### 5.7. [Zod](https://zod.dev/)
+O Zod foi utilizado para validar formulários pois ele tem uma maior integração com o TypeScript
 
 

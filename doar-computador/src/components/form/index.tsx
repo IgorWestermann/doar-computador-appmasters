@@ -1,13 +1,17 @@
-import React, { useEffect, useState } from "react";
-import { useForm, Controller } from "react-hook-form";
-import { Container, FormContainer } from "./styles";
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
+import { Container } from "./styles";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as zod from "zod";
 import {
   Alert,
+  AlertDescription,
+  AlertIcon,
+  AlertTitle,
   Box,
   Button,
   Center,
+  CloseButton,
   Divider,
   Input,
   Select,
@@ -79,12 +83,26 @@ export function Form() {
     axios
       .post("https://doar-computador-api.herokuapp.com/donation", cycles)
       .then((res) => {
-        alert("Formulário enviado com sucesso");
+        <Alert status="success">
+          <AlertIcon />
+          Formulário enviado com sucesso!
+        </Alert>;
         reset();
         console.log(res.status);
       })
       .catch((err) => {
-        if (err.response.status == 400) alert(err.response.data.errorMessage);
+        if (err.response.status == 400) {
+          <Alert status="warning">
+            <AlertIcon /> {err.response.data.errorMessage}
+            <Box>
+              <AlertTitle>Success!</AlertTitle>
+              <AlertDescription>
+                Your application has been received. We will review your
+                application and respond within the next 48 hours.
+              </AlertDescription>
+            </Box>
+          </Alert>;
+        }
         console.log(err.response);
       });
   }
