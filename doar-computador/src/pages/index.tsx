@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import styles from '../../styles/Home.module.css'
-import ApiStatus from '../components/ApiStatus/index'
+import Head from "next/head";
+import styles from "../../styles/Home.module.css";
+import ApiStatus from "../components/apiStatus/index";
+import { Form } from "../components/form";
 
 export default function Home() {
   return (
@@ -13,8 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <ApiStatus />
       </main>
-          
+      <Form />
     </div>
-  )
+  );
 }
-

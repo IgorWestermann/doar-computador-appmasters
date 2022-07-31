@@ -1,36 +1,35 @@
+
 .container {
   padding: 0 2rem;
+  /* background-color: #121214; */
+
 }
 
 .main {
-  min-height: 50vh;
+  min-height: 30vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* background-color: #121214; */
+
 }
 
-.title a {
-  color: #0ab6ff;
-  text-decoration: none;
-}
+
 
 .highlight {
   color: #0ab6ff;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
+
 
 .title {
   margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  line-height: 1.5;
+  font-size: 2rem;
+  color: #000;
 }
 
 .title,
@@ -40,6 +39,9 @@
 
 .title-highlight span {
   color: #0ab6ff;
+}
+.apiText { 
+  color: #000;
 }
 
 
